@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-01T17:18:53.695Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="8yee4QTN05wJIorRgTs7" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-01T17:20:37.302Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="AJjiEc7UHnbheb8T_h6I" version="20.8.13" type="github">
   <diagram name="System Design" id="ppR6mYI0YCc3r38Levov">
     <mxGraphModel dx="1060" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -93,7 +93,7 @@
         <mxCell id="gyydnMPy9BdImkuoWuWb-27" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
           <mxGeometry x="975" y="431.5" width="50" height="37" as="geometry" />
         </mxCell>
-        <mxCell id="s_iX1GUvABhUw4kAC8T3-1" value="Client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
+        <mxCell id="s_iX1GUvABhUw4kAC8T3-1" value="Restaurant" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="60" y="330" width="90" height="20" as="geometry" />
         </mxCell>
         <mxCell id="s_iX1GUvABhUw4kAC8T3-3" value="Nginx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
@@ -157,6 +157,18 @@
         </mxCell>
         <mxCell id="4xput16hwlmWhHdPHv75-37" value="Postgres DB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=50;" vertex="1" parent="1">
           <mxGeometry x="942" y="660" width="116" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4xput16hwlmWhHdPHv75-43" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/azure_stack/User_Subscriptions.svg;" vertex="1" parent="1">
+          <mxGeometry x="78" y="390" width="68" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="4xput16hwlmWhHdPHv75-44" value="Deliver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="58" y="470" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="4xput16hwlmWhHdPHv75-49" value="" style="aspect=fixed;html=1;points=[];align=center;image;fontSize=12;image=img/lib/azure2/azure_stack/User_Subscriptions.svg;" vertex="1" parent="1">
+          <mxGeometry x="78" y="124" width="68" height="66" as="geometry" />
+        </mxCell>
+        <mxCell id="4xput16hwlmWhHdPHv75-50" value="Client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="58" y="204" width="90" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
