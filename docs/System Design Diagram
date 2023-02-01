@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-01-29T16:31:26.611Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="RCF_P944dERK7hQ-dfdN" version="20.8.13" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-01T14:52:11.568Z" agent="5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="jPWbJS6Imtfw5Q7TNogD" version="20.8.13" type="github">
   <diagram name="System Design" id="ppR6mYI0YCc3r38Levov">
     <mxGraphModel dx="1060" dy="627" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -58,7 +58,7 @@
         </mxCell>
         <mxCell id="gyydnMPy9BdImkuoWuWb-19" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="580" y="220" as="sourcePoint" />
+            <mxPoint x="580" y="170" as="sourcePoint" />
             <mxPoint x="750" y="120" as="targetPoint" />
             <Array as="points">
               <mxPoint x="580" y="120" />
@@ -92,6 +92,45 @@
         </mxCell>
         <mxCell id="gyydnMPy9BdImkuoWuWb-27" value="" style="aspect=fixed;perimeter=ellipsePerimeter;html=1;align=center;shadow=0;dashed=0;spacingTop=3;image;image=img/lib/active_directory/database.svg;" parent="1" vertex="1">
           <mxGeometry x="975" y="431.5" width="50" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="s_iX1GUvABhUw4kAC8T3-1" value="Client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="60" y="330" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s_iX1GUvABhUw4kAC8T3-3" value="Nginx" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="290" y="190" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s_iX1GUvABhUw4kAC8T3-4" value="NextJS" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="289" y="570" width="90" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s_iX1GUvABhUw4kAC8T3-5" value="Graphql Gateway" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="520" y="190" width="116" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s_iX1GUvABhUw4kAC8T3-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="750" y="140" as="sourcePoint" />
+            <mxPoint x="600" y="170" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="600" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s_iX1GUvABhUw4kAC8T3-7" value="Microservice" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="743.4300000000001" y="180" width="116" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s_iX1GUvABhUw4kAC8T3-8" value="Microservice" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="743.4300000000001" y="342" width="116" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s_iX1GUvABhUw4kAC8T3-9" value="Microservice" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="743.4300000000001" y="510" width="116" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s_iX1GUvABhUw4kAC8T3-10" value="Firebase" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="942" y="180" width="116" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s_iX1GUvABhUw4kAC8T3-11" value="Postgres DB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="942" y="316" width="116" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="s_iX1GUvABhUw4kAC8T3-12" value="Postgres DB" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;arcSize=50;" vertex="1" parent="1">
+          <mxGeometry x="942" y="490" width="116" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
